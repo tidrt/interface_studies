@@ -17,7 +17,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:ss"); 
-		
+		 
 		System.out.println("Enter rental data");
 		System.out.print("Car model: ");
 		String carModel = sc.nextLine();
